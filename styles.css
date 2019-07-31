@@ -9,11 +9,10 @@ body {
 #path-0 {
     stroke-dasharray: 337;
     stroke-dashoffset: 337;
-    /* stroke-opacity: .1; */
     stroke-linecap: round;
     /* stroke-linejoin: bevel; */
-    /* stroke-width: 270%; */
     animation: stroke-animate 2s ease forwards;
+
 
 }
 
@@ -95,14 +94,24 @@ body {
 }
 
 #path-12 {
-    stroke-dasharray: 605;
-    stroke-dashoffset: 605;
+    /* stroke-dasharray: 605;
+    stroke-dashoffset: 605; */
     stroke-linecap: round;
-    animation: stroke-animate 2s ease forwards 3.6s;
+    stroke-opacity: 0;
+    stroke-width: 262%;
+    animation: first-letter-animate 2s ease forwards 3.8s;
 }
 
 @keyframes stroke-animate {
     to {
         stroke-dashoffset: 0;
+    }
+}
+
+@keyframes first-letter-animate {
+
+    to {
+        stroke-width: .5%;
+        stroke-opacity: 1;
     }
 }
