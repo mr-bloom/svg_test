@@ -1,0 +1,108 @@
+body {
+    background-color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#path-0 {
+    stroke-dasharray: 337;
+    stroke-dashoffset: 337;
+    /* stroke-opacity: .1; */
+    stroke-linecap: round;
+    /* stroke-linejoin: bevel; */
+    /* stroke-width: 270%; */
+    animation: stroke-animate 2s ease forwards;
+
+}
+
+#path-1 {
+    stroke-dasharray: 464;
+    stroke-dashoffset: 464;
+    stroke-linecap: round;
+    animation: stroke-animate 2s ease forwards .2s;
+}
+
+#path-2 {
+    stroke-dasharray: 494;
+    stroke-dashoffset: 494;
+    stroke-linecap: round;
+    animation: stroke-animate 2s ease forwards .4s;
+}
+
+#path-3 {
+    stroke-dasharray: 337;
+    stroke-dashoffset: 337;
+    stroke-linecap: round;
+    animation: stroke-animate 2s ease forwards .6s;
+}
+
+#path-4 {
+    stroke-dasharray: 490;
+    stroke-dashoffset: 490;
+    stroke-linecap: round;
+    animation: stroke-animate 2s ease forwards 2s;
+}
+
+#path-5 {
+    stroke-dasharray: 605;
+    stroke-dashoffset: 605;
+    stroke-linecap: round;
+    animation: stroke-animate 2s ease forwards 2.2s;
+}
+
+#path-6 {
+    stroke-dasharray: 227;
+    stroke-dashoffset: 227;
+    stroke-linecap: round;
+    animation: stroke-animate 2s ease forwards 2.4s;
+}
+
+#path-7 {
+    stroke-dasharray: 755;
+    stroke-dashoffset: 755;
+    stroke-linecap: round;
+    animation: stroke-animate 2s ease forwards 2.6s;
+}
+
+#path-8 {
+    stroke-dasharray: 490;
+    stroke-dashoffset: 490;
+    stroke-linecap: round;
+    animation: stroke-animate 2s ease forwards 2.8s;
+}
+
+#path-9 {
+    stroke-dasharray: 337;
+    stroke-dashoffset: 337;
+    stroke-linecap: round;
+    animation: stroke-animate 2s ease forwards 3s;
+}
+
+#path-10 {
+    stroke-dasharray: 227;
+    stroke-dashoffset: 227;
+    stroke-linecap: round;
+    animation: stroke-animate 2s ease forwards 3.2s;
+}
+
+#path-11 {
+    stroke-dasharray: 566;
+    stroke-dashoffset: 566;
+    stroke-linecap: round;
+    animation: stroke-animate 2s ease forwards 3.4s;
+}
+
+#path-12 {
+    stroke-dasharray: 605;
+    stroke-dashoffset: 605;
+    stroke-linecap: round;
+    animation: stroke-animate 2s ease forwards 3.6s;
+}
+
+@keyframes stroke-animate {
+    to {
+        stroke-dashoffset: 0;
+    }
+}
