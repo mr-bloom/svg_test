@@ -102,6 +102,51 @@ body {
     animation: first-letter-animate 2s ease forwards 3.8s;
 }
 
+
+
+#a-path-0 {
+    stroke-dasharray: 2275;
+    stroke-dashoffset: 2275;
+    stroke-linecap: round;
+    /* stroke-linejoin: bevel; */
+    animation: stroke-animate 3s ease forwards 2.0s;
+
+
+}
+
+#a-path-1 {
+    stroke-dasharray: 1162;
+    stroke-dashoffset: 1162;
+    stroke-linecap: round;
+    animation: stroke-animate 3s ease forwards 2.2s;
+}
+
+#a-path-2 {
+    stroke-dasharray: 1845;
+    stroke-dashoffset: 1845;
+    stroke-linecap: round;
+    animation: stroke-animate 3s ease forwards 2.4s;
+}
+
+#a-path-3 {
+    stroke-dasharray: 2275;
+    stroke-dashoffset: 2275;
+    stroke-linecap: round;
+    animation: stroke-animate 3s ease forwards 2.6s;
+}
+
+#a-path-4 {
+    stroke-dasharray: 4271;
+    stroke-dashoffset: 4271;
+    stroke-linecap: round;
+    animation: stroke-animate 3s ease forwards;
+    /* stroke-width: 300%; */
+    /* stroke-opacity: 0; */
+    /* animation: first-letter-animate 3s ease forwards; */
+}
+
+
+
 @keyframes stroke-animate {
     to {
         stroke-dashoffset: 0;
